@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:verticalScrollbarPosition="right">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="NBA LIVE Mobile"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvArtist"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="end"
+        android:text="Electronic Arts"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvName" />
+
+    <TextView
+        android:id="@+id/tvSummary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius dictum nulla, efficitur tristique sem congue sit amet. Aenean cursus, velit id dignissim pellentesque, enim nibh condimentum justo, eget viverra tortor nibh at nunc. Nam eget scelerisque magna. Ut eu nisi vestibulum, venenatis mauris eget, ullamcorper urna. Etiam quis convallis nisl. Suspendisse finibus ipsum justo, eu facilisis lacus egestas non. Aliquam pulvinar massa condimentum laoreet fringilla. Vestibulum lacinia sed nisl quis cursus. Pellentesque hendrerit laoreet felis a euismod. Ut maximus feugiat nulla quis blandit. Fusce fringilla, neque vitae pharetra dignissim, orci mauris consequat magna, vel ultrices ipsum ex ac felis. Aenean nec auctor augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi et tellus ultricies, placerat tellus ac, vulputate neque. Vivamus viverra accumsan dui id molestie. Nulla convallis felis nulla, in sodales nunc dapibus vel. Fusce aliquet aliquam massa eget consequat. Sed et aliquam urna, nec tincidunt dolor. Phasellus nibh nulla, pellentesque sed arcu ut, accumsan vestibulum lacus. Curabitur iaculis dapibus dui a luctus. Donec vel libero metus. Curabitur et dolor aliquam, convallis sem molestie, viverra quam. Ut tempor elit euismod quam mollis consectetur. Aenean dui nibh, faucibus vel scelerisque at, placerat non odio. Donec quis posuere magna. Morbi aliquam condimentum erat, at rhoncus tellus convallis vitae. Duis malesuada magna at enim gravida elementum. Aenean rhoncus consequat elit, at congue metus lacinia et.  Proin vitae sagittis dolor. Donec ac venenatis augue. In hac habitasse platea dictumst. Nulla pulvinar accumsan dui vel placerat. Cras rhoncus tincidunt bibendum. Quisque cursus, leo nec maximus semper, quam nunc tristique erat, sit amet commodo dui urna sit amet purus. Vivamus pharetra tortor ac faucibus cursus. Etiam eu dolor finibus, pretium urna nec, euismod nulla. Nulla vehicula nulla ut leo consequat, malesuada fermentum velit egestas. Cras quis varius odio."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvArtist" />
+</androidx.constraintlayout.widget.ConstraintLayout>
